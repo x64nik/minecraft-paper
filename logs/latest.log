@@ -1,0 +1,302 @@
+[19:13:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.14.0-37-generic (amd64)
+[19:13:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[19:13:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:13:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
+[19:13:53] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - HuskHomes (4.9.9), Networks (3.1.3), TradeCycle (1.5.0)
+[19:13:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - CoreProtect (23.1), DeathChest (2.2.9), Geyser-Spigot (2.8.3-SNAPSHOT), GriefPrevention (16.18.4), LuckPerms (5.5.0), MinerTrack (1.7.5), Passky (3.3.0), PixelRank (1.2), SilkSpawners_v2 (2.3.3), SleepFixer (2.1.0), ToolStats (1.9.9), TreeFella (1.2), WorldEdit (7.3.16+cbf4bd5), floodgate (2.2.5-SNAPSHOT (b126-096c605))
+[19:13:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:14:00] [ServerMain/INFO]: Loaded 1373 recipes
+[19:14:00] [ServerMain/INFO]: Loaded 1484 advancements
+[19:14:00] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[19:14:00] [Server thread/INFO]: Loading properties
+[19:14:01] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[19:14:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:14:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:14:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:14:01] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[19:14:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:14:01] [Server thread/INFO]: Default game type: SURVIVAL
+[19:14:01] [Server thread/INFO]: Generating keypair
+[19:14:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:14:01] [Server thread/INFO]: Using epoll channel type
+[19:14:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:14:01] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
+[19:14:02] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/zappy/Desktop/paper-1.21.5 original/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
+[19:14:02] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[19:14:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@63f1536]
+[19:14:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b126-096c605)
+[19:14:04] [Server thread/INFO]: [floodgate] Took 988ms to boot Floodgate
+[19:14:04] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[19:14:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[19:14:04] [Server thread/INFO]: [MinerTrack] Loading server plugin MinerTrack v1.7.5
+[19:14:04] [Server thread/INFO]: [PixelRank] Loading server plugin PixelRank v1.2
+[19:14:04] [Server thread/INFO]: [SilkSpawners_v2] Loading server plugin SilkSpawners_v2 v2.3.3
+[19:14:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[19:14:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:14:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:14:05] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.9
+[19:14:05] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.1
+[19:14:05] [Server thread/INFO]: [ToolStats] Loading server plugin ToolStats v1.9.9
+[19:14:05] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v1.5.0
+[19:14:05] [Server thread/INFO]: [Networks] Loading server plugin Networks v3.1.3
+[19:14:05] [Server thread/INFO]: [Passky] Loading server plugin Passky v3.3.0
+[19:14:05] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
+[19:14:05] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.9.9
+[19:14:06] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[19:14:06] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.9.9
+[19:14:06] [Server thread/INFO]: [SleepFixer] Loading server plugin SleepFixer v2.1.0
+[19:14:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:14:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[19:14:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:14:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:14:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_5.PaperweightAdapter as the Bukkit adapter
+[19:14:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[19:14:08] [Server thread/INFO]:         __    
+[19:14:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[19:14:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:14:08] [Server thread/INFO]: 
+[19:14:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:14:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:14:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:14:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:14:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1843ms)
+[19:14:10] [Server thread/INFO]: [Networks] Enabling Networks v3.1.3
+[19:14:10] [Server thread/INFO]: [Networks] Loading config files...
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file general.conf on root path networks
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully updated config file general.conf
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file en.yml on root path networks.lang.en
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully updated config file en.yml
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file de.yml on root path networks.lang.de
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully updated config file de.yml
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Launched using language order: [en, de]
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file recipes.conf on root path networks.recipes
+[19:14:10] [Server thread/INFO]: [Networks] [QC] Successfully updated config file recipes.conf
+[19:14:10] [Server thread/INFO]: [Networks] Initialiased Crafting Recipes
+[19:14:10] [Server thread/INFO]: [Networks] [Manuals] Successfully loaded configuration file en.yml on root path /home/zappy/Desktop/paper-1.21.5 original/plugins/Networks/manuals/main/en.yml
+[19:14:10] [Server thread/INFO]: [Networks] Loaded 1 Networks
+[19:14:10] [Server thread/INFO]: [Networks] 
+
+   _  __    __                  __          ____  ___
+  / |/ /__ / /__    _____  ____/ /__ ___   |_  / <  /
+ /    / -_) __/ |/|/ / _ \/ __/  '_/(_-<  _/_ <_ / / 
+/_/|_/\__/\__/|__,__/\___/_/ /_/\_\/___/ /____(_)_/                                                            
+
+[19:14:10] [Server thread/INFO]: [SleepFixer] Enabling SleepFixer v2.1.0
+[19:14:10] [Server thread/INFO]: [SleepFixer] Start-up complete (took 22.0ms).
+[19:14:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:14:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:14:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:14:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:14:10] [Server thread/INFO]: Preparing level "world"
+[19:14:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:14:12] [Server thread/INFO]: Preparing spawn area: 0%
+[19:14:13] [Server thread/INFO]: Preparing spawn area: 0%
+[19:14:13] [Server thread/INFO]: Time elapsed: 983 ms
+[19:14:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:14:13] [Server thread/INFO]: Preparing spawn area: 0%
+[19:14:13] [Server thread/INFO]: Time elapsed: 494 ms
+[19:14:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:14:13] [Server thread/INFO]: Preparing spawn area: 0%
+[19:14:13] [Server thread/INFO]: Time elapsed: 127 ms
+[19:14:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b126-096c605)
+[19:14:14] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[19:14:14] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[19:14:14] [Server thread/INFO]: [GriefPrevention] 12 total claims loaded.
+[19:14:14] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[19:14:14] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[19:14:14] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[19:14:14] [Server thread/INFO]: [MinerTrack] Enabling MinerTrack v1.7.5
+[19:14:15] [Server thread/WARN]: [MinerTrack] Failed to check for updates: https://api.spigotmc.org/simple/0.2/index.php?action=getResource&id=120562
+[19:14:15] [Server thread/INFO]: [MinerTrack] Failed to check for updates.
+[19:14:15] [Server thread/INFO]: ----[MinerTrack v1.7.5 ]-----------
+[19:14:15] [Server thread/INFO]: MinerTrack Anti-XRay Enabled!
+[19:14:15] [Server thread/INFO]: 
+[19:14:15] [Server thread/INFO]: Authors: Author87668
+[19:14:15] [Server thread/INFO]: Original Author: Author87668
+[19:14:15] [Server thread/INFO]: Contributors: Author87668, Zhang12334
+[19:14:15] [Server thread/INFO]: 
+[19:14:15] [Server thread/INFO]: Thanks for your use!
+[19:14:15] [Server thread/INFO]: -----------------------------------------
+[19:14:15] [Server thread/INFO]: [PixelRank] Enabling PixelRank v1.2
+[19:14:15] [Server thread/INFO]: [PixelRank] PixelRank Version 1.2. Hello!
+[19:14:15] [Server thread/INFO]: [PixelRank] Loading configuration...
+[19:14:15] [Server thread/INFO]: [PixelRank] Recovering data from the database..
+[19:14:16] [Server thread/INFO]: [PixelRank] Registrying events and commands...
+[19:14:16] [Server thread/INFO]: [PixelRank] Registrying time scheduler...
+[19:14:16] [Server thread/INFO]: [PixelRank] PixelRank has been enabled!
+[19:14:16] [Server thread/INFO]: [SilkSpawners_v2] Enabling SilkSpawners_v2 v2.3.3
+[19:14:16] [Server thread/INFO]: [SilkSpawners] Loading configuration...
+[19:14:16] [Server thread/INFO]: [SilkSpawners] Configuration is up to date
+[19:14:16] [Thread-13/INFO]: [SilkSpawners] [INFO]: Checking for updates
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting SilkSpawners v2.3.3
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading server platform
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Initialized plugin for bukkit server
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading Cross-Version support
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Loaded support for version 1.21.5
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading locale file
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting bStats integration
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering listeners
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering commands
+[19:14:16] [Server thread/INFO]: [SilkSpawners] [INFO]: Started SilkSpawners v2.3.3
+[19:14:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[19:14:16] [Thread-13/INFO]: [SilkSpawners] [INFO]: The plugin is up to date (Current release v2.3.3)
+[19:14:17] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.9
+[19:14:17] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
+[19:14:17] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[19:14:17] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
+[19:14:17] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[19:14:17] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
+[19:14:17] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
+[19:14:17] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
+[19:14:17] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[19:14:17] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[19:14:17] [Server thread/INFO]: --------------------
+[19:14:17] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[19:14:17] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[19:14:17] [Server thread/INFO]: --------------------
+[19:14:17] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.9.9
+[19:14:17] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v1.5.0
+[19:14:17] [Server thread/INFO]: [Passky] Enabling Passky v3.3.0
+[19:14:17] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
+[19:14:17] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.9.9
+[19:14:18] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[19:14:18] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.9.9
+[19:14:18] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.10 (running v4.9.9)
+[19:14:18] [Folia Async Scheduler Thread #0/WARN]: [ToolStats] A new version is available (1.9.11)! You are running version 1.9.9. You are 2 version(s) behind.
+[19:14:18] [Server thread/INFO]: [spark] Starting background profiler...
+[19:14:18] [Server thread/INFO]: [MinerTrack] Server has finished loading. Checking for updates...
+[19:14:18] [Server thread/WARN]: [MinerTrack] Failed to check for updates: https://api.spigotmc.org/simple/0.2/index.php?action=getResource&id=120562
+[19:14:18] [Server thread/INFO]: [MinerTrack] Failed to check for updates.
+[19:14:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:14:18] [Server thread/INFO]: [Geyser-Spigot] 
+[19:14:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b915 (git-master-8e295a9)
+[19:14:18] [Server thread/INFO]: [Geyser-Spigot] 
+[19:14:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:14:22] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[19:14:22] [Server thread/INFO]: [Geyser-Spigot] Done (3.816s)! Run /geyser help for help!
+[19:14:22] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.7, 1.21.8). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
+[19:14:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.131. Download it here: https://geysermc.org/download
+[19:14:22] [Server thread/INFO]: Done preparing level "world" (11.942s)
+[19:14:22] [Server thread/INFO]: Running delayed init tasks
+[19:14:22] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[19:14:22] [Server thread/INFO]: Done (32.322s)! For help, type "help"
+[19:14:23] [Craft Scheduler Thread - 1 - Passky/INFO]: 
+
+[]============[Enabling Passky]============[]
+|
+| Information:
+|
+|   Name: Passky
+|   Developer: Black1_TV
+|   Version: 3.3.0
+|   Website: https://rabbit-company.com
+|
+| Sponsors:
+|
+|   - https://rabbitserverlist.com
+|
+| Support:
+|
+|   Discord: ziga.zajc007
+|   Mail: ziga.zajc007@gmail.com
+|   Discord: https://discord.gg/hUNymXX
+|
+[]=========================================[]
+
+[19:14:27] [Craft Scheduler Thread - 1 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[19:17:49] [User Authenticator #0/INFO]: UUID of player DeadVedant is 57e7eb3a-4bb5-31cf-b7ad-17fb36b7311d
+[19:17:49] [Server thread/INFO]: Disconnecting DeadVedant (/127.148.198.220:44675): You are not whitelisted on this server!
+[19:17:49] [Server thread/INFO]: Disconnecting DeadVedant (/127.148.198.220:44675): You are not whitelisted on this server!
+[19:17:49] [Server thread/INFO]: DeadVedant (/127.148.198.220:44675) lost connection: You are not whitelisted on this server!
+[19:23:44] [User Authenticator #1/INFO]: UUID of player MrOC is fe706f11-e712-3e21-af4a-95509c509c79
+[19:23:46] [Server thread/INFO]: MrOC joined the game
+[19:23:46] [Server thread/INFO]: MrOC[/127.40.57.128:54331] logged in with entity id 27 at ([world]40.398761635329876, 90.0, -262.42911693098694)
+[19:23:48] [User Authenticator #1/INFO]: UUID of player DeadVedant is 57e7eb3a-4bb5-31cf-b7ad-17fb36b7311d
+[19:23:48] [Server thread/INFO]: Disconnecting DeadVedant (/127.4.81.59:52293): You are not whitelisted on this server!
+[19:23:48] [Server thread/INFO]: DeadVedant (/127.4.81.59:52293) lost connection: You are not whitelisted on this server!
+[19:24:45] [User Authenticator #1/INFO]: UUID of player Zekrom3016 is 1183b263-ddff-3dc2-8059-4c8cec7bfd66
+[19:24:47] [Server thread/INFO]: Zekrom3016 joined the game
+[19:24:47] [Server thread/INFO]: Zekrom3016[/127.210.232.99:38319] logged in with entity id 520 at ([world_nether]0.0, 66.0, 0.0)
+[19:24:48] [Server thread/INFO]: MrOC fell from a high place
+[19:29:56] [Server thread/INFO]: Added DeadVedant to the whitelist
+[19:30:34] [Server thread/INFO]: MrOC was slain by Zombie
+[19:31:02] [User Authenticator #2/INFO]: UUID of player Krutika is b9807fe6-e339-3c4c-bc38-d928492ff0df
+[19:31:06] [Server thread/INFO]: Krutika joined the game
+[19:31:06] [Server thread/INFO]: Krutika[/127.4.81.59:37443] logged in with entity id 3104 at ([world]0.0, 69.0, 0.0)
+[19:31:30] [Server thread/INFO]: MrOC lost connection: Disconnected
+[19:31:30] [Server thread/INFO]: MrOC left the game
+[19:31:36] [User Authenticator #2/INFO]: UUID of player MrOC is fe706f11-e712-3e21-af4a-95509c509c79
+[19:31:38] [Server thread/INFO]: MrOC joined the game
+[19:31:38] [Server thread/INFO]: MrOC[/127.40.57.128:35773] logged in with entity id 3677 at ([world]-0.5, 76.0, -9.5)
+[19:32:06] [Server thread/INFO]: Krutika lost connection: Timed out
+[19:32:06] [Server thread/INFO]: Krutika left the game
+[19:33:54] [Server thread/INFO]: MrOC was shot by Skeleton
+[19:34:10] [User Authenticator #3/INFO]: UUID of player DeadVedant is 57e7eb3a-4bb5-31cf-b7ad-17fb36b7311d
+[19:34:12] [Server thread/INFO]: DeadVedant joined the game
+[19:34:12] [Server thread/INFO]: DeadVedant[/127.4.81.59:35383] logged in with entity id 4855 at ([world]0.0, 69.0, 0.0)
+[19:34:19] [Server thread/INFO]: MrOC lost connection: Disconnected
+[19:34:19] [Server thread/INFO]: MrOC left the game
+[19:34:42] [Server thread/INFO]: DeadVedant lost connection: [Passky] You have only 30 seconds to login.
+[19:34:42] [Server thread/INFO]: DeadVedant left the game
+[19:34:48] [User Authenticator #3/INFO]: UUID of player DeadVedant is 57e7eb3a-4bb5-31cf-b7ad-17fb36b7311d
+[19:34:48] [Server thread/INFO]: Disconnecting DeadVedant (/127.4.81.59:37231): You must wait 24 seconds before logging-in again.
+[19:34:48] [Server thread/INFO]: DeadVedant (/127.4.81.59:37231) lost connection: You must wait 24 seconds before logging-in again.
+[19:35:41] [User Authenticator #3/INFO]: UUID of player DeadVedant is 57e7eb3a-4bb5-31cf-b7ad-17fb36b7311d
+[19:35:42] [Server thread/INFO]: DeadVedant joined the game
+[19:35:42] [Server thread/INFO]: DeadVedant[/127.4.81.59:58779] logged in with entity id 5125 at ([world]0.0, 69.0, 0.0)
+[19:36:16] [Server thread/INFO]: DeadVedant was slain by Zombie
+[19:39:01] [User Authenticator #4/INFO]: UUID of player MrOC is fe706f11-e712-3e21-af4a-95509c509c79
+[19:39:02] [Server thread/INFO]: MrOC joined the game
+[19:39:02] [Server thread/INFO]: MrOC[/127.40.57.128:39753] logged in with entity id 6535 at ([world]0.5, 78.0, -3.5)
+[19:40:23] [Async Chat Thread - #0/INFO]: [Not Secure] <DeadVedant> teleport kase karta re?
+[19:40:31] [Async Chat Thread - #0/INFO]: [Not Secure] <MrOC> tpa
+[19:40:37] [Server thread/INFO]: MrOC issued server command: /tpa DeadVedant
+[19:40:44] [Server thread/INFO]: DeadVedant issued server command: /huskhomes:tpaccept MrOC
+[19:41:01] [Async Chat Thread - #0/INFO]: [Not Secure] <DeadVedant> village che cods mahiti aahe ka?
+[19:41:27] [Async Chat Thread - #0/INFO]: [Not Secure] <MrOC> mi ek photo baghitla hota dc vr tith khi tri hota
+[19:41:41] [Async Chat Thread - #1/INFO]: [Not Secure] <DeadVedant> Vinni Bhai Village che cods de na
+[19:42:01] [Async Chat Thread - #1/INFO]: [Not Secure] <Zekrom3016> idk code re
+[19:42:12] [Async Chat Thread - #1/INFO]: [Not Secure] <Zekrom3016> i dont use tps
+[19:42:13] [Async Chat Thread - #1/INFO]: [Not Secure] <DeadVedant> bhetle nvm
+[19:42:50] [Server thread/WARN]: Zekrom3016 moved wrongly!
+[19:43:47] [Server thread/INFO]: DeadVedant has made the advancement [Monster Hunter]
+[19:43:47] [Server thread/INFO]: DeadVedant has made the advancement [Take Aim]
+[19:45:59] [Server thread/INFO]: DeadVedant has made the advancement [Acquire Hardware]

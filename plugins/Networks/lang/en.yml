@@ -1,0 +1,220 @@
+prefix: '<green>[Networks]<reset>  '
+version: |-
+    <dark_green>Networks Plugin</dark_green> by <yellow>Kwantux</yellow>
+    <aqua>Version: </aqua><1>
+help: "\n <bold><dark_green>          Networks v<1> - Help Menu \n============================================</dark_green></bold>\n\
+    \n<click:suggest_command:/net create>/net create (id)</click> - <yellow>Create\
+    \ a new network</yellow> \n<click:suggest_command:/net rename>/net rename (id)</click>\
+    \ - <yellow>Rename a network</yellow> \n<click:suggest_command:/net delete>/net\
+    \ delete (id)</click> - <yellow>Delete a network</yellow> \n \n<click:suggest_command:/net\
+    \ select>/net select (id)</click> - <yellow>Select a network</yellow> \n \n<click:suggest_command:/net\
+    \ list>/net list</click> - <yellow>List all your networks</yellow> \n<click:suggest_command:/net\
+    \ listall>/net listall</click> - <yellow>List all of the networks on the server</yellow>\
+    \ \n<click:suggest_command:/net list>/net list (player)</click> - <yellow>List\
+    \ networks of another player</yellow> \n \n<click:suggest_command:/net user add>/net\
+    \ user add (player)</click> - <yellow>Give a player access to your network</yellow>\
+    \ \n<click:suggest_command:/net user remove>/net user remove (player)</click>\
+    \ - <yellow>Revoke a player's access to your network</yellow> \n \n<click:suggest_command:/net\
+    \ items>/net items</click> - <yellow>List all your items</yellow> \n \n<click:suggest_command:/net\
+    \ merge>/net merge (net1) (net2)</click> - <yellow>Merge net2 into net1</yellow>\
+    \ \n \n<blue><click:run_command:/net manual>Open the user manual</click></blue>\
+    \ \n "
+help.admin: "\n <bold><dark_green>          Networks v<1> - Help Menu \n============================================</dark_green></bold>\n\
+    \n<click:suggest_command:/net data save>/net data save</click> - <yellow>Save\
+    \ all networks</yellow> \n<click:suggest_command:/net data reload>/net data reload</click>\
+    \ - <yellow>Reload the configs</yellow> \n \n<click:suggest_command:/net create>/net\
+    \ create (id)</click> - <yellow>Create a new network</yellow> \n<click:suggest_command:/net\
+    \ rename>/net rename (id)</click> - <yellow>Rename a network</yellow> \n<click:suggest_command:/net\
+    \ delete>/net delete (id)</click> - <yellow>Delete a network</yellow> \n \n<click:suggest_command:/net\
+    \ select>/net select (id)</click> - <yellow>Select a network</yellow> \n \n<click:suggest_command:/net\
+    \ list>/net list</click> - <yellow>List all your networks</yellow> \n<click:suggest_command:/net\
+    \ listall>/net listall</click> - <yellow>List all of the networks on the server</yellow>\
+    \ \n<click:suggest_command:/net list>/net list (player)</click> - <yellow>List\
+    \ networks of another player</yellow> \n \n<click:suggest_command:/net user add>/net\
+    \ user add (player)</click> - <yellow>Give a player access to your network</yellow>\
+    \ \n<click:suggest_command:/net user remove>/net user remove (player)</click>\
+    \ - <yellow>Revoke a player's access to your network</yellow> \n \n<click:suggest_command:/net\
+    \ items>/net items</click> - <yellow>List all your items</yellow> \n \n<click:suggest_command:/net\
+    \ merge>/net merge (net1) (net2)</click> - <yellow>Merge net2 into net1</yellow>\
+    \ \n \n<blue><click:run_command:/net manual>Open the user manual</click></blue>\
+    \ \n "
+force.enable: <prefix>Force mode <green>enabled</green>
+force.disable: <prefix>Force mode <green>disabled</green>
+data.reload.networks: <prefix>Reloaded network files
+data.save.networks: <prefix>Saved networks to files
+data.reload.config: <prefix>Reloaded config files
+data.save.config: <prefix>Saved config files
+create.success: <prefix>Successfully created storage network <green><1>
+create.exists: <prefix><yellow>There is already a network with this name, please select
+    another name!
+create.limit: <prefix><red>Player <white><1></white> cannot own any more networks!
+create.illegal_name: <prefix><red>Network names must only contain A-Z, 0-9, _ and
+    - and must be at most 20 characters long!
+delete.success: <prefix>Successfully deleted storage network <green><1>
+delete.confirm: <prefix>Are you sure you want to delete storage network <1>? Please
+    confirm with <yellow>/net delete <1> confirm
+delete.fail: <prefix><red>This network doesn't exist
+select.noselection: <prefix><red>No network was selected. Please select a network
+    using <white>/net select <network>
+select.success: <prefix>Successfully selected storage network <green><1>
+invalid.network: <input> is not a valid network!
+invalid.componenttype: <input> is not a valid component type!
+click-to-tp: Click to teleport
+permission.server: <prefix><red>This command is only available for server administrators!
+permission.owner: |-
+    <prefix><red>You don't have permissions to edit this network!
+    You need to be the network owner or a server administrator!
+permission.user: |-
+    <prefix><red>You don't have permissions on this network!
+    You need to be a network user!
+list.empty: <prefix>You don't have any storage networks!
+list: '<prefix>You are added the following storage networks:'
+list.owned: '<prefix>You own the following storage networks:'
+list.foreign.empty: <prefix>Player <1> doesn't have any storage networks!
+list.foreign: '<prefix>Player <1> is added to the following storage networks:'
+list.foreign.owned: '<prefix>Player <1> owns the following storage networks:'
+list.all.empty: <prefix>There are no storage networks on this server.
+list.all: '<prefix>These storage networks exist:'
+info.title: |4
+
+                    <bold><dark_green>Network Information
+    <reset><dark_green>=============================================
+info.name: 'Name:  <1>'
+info.owner: 'Owner: <1>'
+info.users: 'Users: <1>'
+info.components.total: 'Components: <1>'
+info.range: 'Max Range: <1>'
+info.components.input: 'Input Containers: '
+info.components.sorting: 'Sorting Containers: '
+info.components.misc: 'Miscellaneous Containers: '
+property.range: <reset><green>Range</green>
+property.acceptor_priority: <reset><green>Acceptor Priority</green>
+property.supplier_priority: <reset><green>Supplier Priority</green>
+property.filters: <reset><green>Filters</green>
+component.input.add: <prefix>Input container at <1> successfully added to <2>!
+component.sorting.add: <prefix>Sorting container at <1> successfully added to <2>!
+component.sorting.setitem: <prefix>Item type <2> was added to sorting container at
+    <1>.
+component.sorting.removeitem: <prefix>Item type <2> was removed from sorting container
+    at <1>.
+component.sorting.clearfilters: <prefix>Cleared filters of the container you're holding.
+component.sorting.autofilter: <prefix>Added contents of container at <1> to it's sorting
+    filter.
+component.misc.add: <prefix>Miscellaneous container at <1> successfully added to <2>!
+component.remove: <prefix><red>Removed component at <1>
+component.exploded: <prefix><dark_red>NetworkComponent at <white><1><dark_red> from
+    network <white><2><dark_red> was blown up!
+component.invalid_block: <prefix><red>Blocks of type </red><1><red> are not allowed
+    to be network components!</red>
+component.nocomponent: <prefix><yellow>This block is not a network component!
+component.priority: <prefix>Priority set to <1>
+component.list.empty: <prefix><red>There are no components in network <white><1></white>!
+location.occupied: <prefix><red>There is already a component at this location!
+rangeupgrade.last: <prefix><yellow>You already reached the maximum upgrade level.
+rangeupgrade.alreadyupgraded: <prefix><yellow>You already installed this upgrade,
+    the next upgrade is range Tier <white><1>
+rangeupgrade.unlockfirst: <prefix><yellow>You need to unlock range Tier <white><1><yellow>
+    first!
+rangeupgrade.invalid: <prefix><yellow>You somehow obtained an invalid range upgrade...
+    Possibly your admin changed the config after you crafted this.
+rangeupgrade.passivecomponent: <prefix><yellow>This can only be applied to <bold>active</bold>
+    network components (e.g. Input), NOT passive components (e.g. Sorting, Misc)
+rangeupgrade.success: <prefix>Successfully upgraded component <2> to Tier <1>!
+rangeupgrade.success.network: <prefix>Successfully upgraded network <2> to Tier <1>!
+user.add: <prefix>Successfully added <2> to the network <1>
+user.remove: <prefix>Successfully removed <2> from the network <1>
+user.add.nochange: <prefix>Player <2> is already added to network <1>
+user.remove.nochange: <prefix>Player <2> hasn't been added to network <1>
+user.owner: <prefix>Transferred ownership of <2> to player <1>
+user.owner.nochange: <prefix>Player <2> was already owner of network <1>
+user.owner.norequest: <prefix><red>Nothing to accept</red>
+user.owner.request.acceptor: <prefix>Player <green><2></green> want's to make you
+    the owner of network <green><1><newline></green>Run <yellow><click:suggest_command:/net
+    accept >/net accept <1></click></yellow> to accept.
+user.owner.request.donator: <prefix>Request was sent to player <1>
+user.owner.accept.acceptor: <prefix>Network <green><1></green> is now your's. The
+    original owner is still added as a user.
+user.owner.accept.donator: <prefix>Transfer request was accepted by <green><1></green>
+merge.identical: <prefix><red>Sorry but the laws of physics can't be broken.
+merge.nopermission: <prefix><red>You need to be owner of both networks in order to
+    merge them!
+merge.success: <prefix>Successfully merged network <2> into <1>
+teleport.world-invalid: <prefix><red>No world with uuid <1> exists
+teleport.success: <prefix>Teleported to <white>[<1>, <2>, <3>, <4>]<green>
+rename.success: <prefix>Successfully renamed network <1> to <2>
+rename.taken: <prefix>Name <1> is already taken by another network.
+wand.mode: <prefix><blue>Wand mode set to [<1>]
+wand.mode.0: Filter
+wand.mode.1: Priority
+wand.mode.2: Strict Filter
+wand.info.input: |
+    <green>Type: <reset>Input Container<green>
+    Network: <reset><1><green>
+    Location: <reset><2><green>
+    Extra Range: <reset><3><green>
+wand.info.sorting: |
+    <green>Type: <reset>Sorting Container<green>
+    Network: <reset><1><green>
+    Location: <reset><2><green>
+    Priority: <reset><3><green>
+    Filters: <reset><4>
+wand.info.misc: |
+    <green>Type: <reset>Misc Container<green>
+    Network: <reset><1><green>
+    Location: <reset><2><green>
+    Priority: <reset><3><green>
+items.noitems: <prefix><red>There are no items in your storage network. (Components
+    in unloaded chunks are not counted!)
+items.message: |-
+    <green><bold>Total items in network <white><1><green>:</bold>
+    (Items in unloaded chunks are not counted!)
+item.name.wand0: <reset><red>Network Wand <green>[Material Filter]
+item.name.wand1: <reset><red>Network Wand <blue>[Priority]
+item.name.wand2: <reset><red>Network Wand <dark_green>[Strict Filter]
+item.name.component.input: <reset>Input Container
+item.name.component.sorting: <reset>Sorting Container
+item.name.component.misc: <reset>Miscellaneous Container
+item.name.upgrade.range.0: <reset><bold>Antenna Tier 1
+item.name.upgrade.range.1: <reset><bold>Antenna Tier 2
+item.name.upgrade.range.2: <reset><bold>Antenna Tier 3
+item.name.upgrade.range.3: <reset><bold>Antenna Tier 4
+item.name.upgrade.range.4: <reset><bold>Antenna Tier 5
+item.lore.wand0: [<reset>Right click any network component to show information about
+        it, <reset>Left click to switch mode, '', <reset>Sneak + Right click on a
+        sorting chest with an empty offhand to add all contents of the chest as filters,
+    <reset>Sneak + Left click with an empty offhand to set all contents of the chest
+        as filters (also removes existing filters), '', <reset>Sneak + Right click
+        on a sorting chest with an item in the offhand to apply a filter, <reset>Sneak
+        + Left click with an item in the offhand to remove a filter]
+item.lore.wand1: [<reset>Right click any network component to show information about
+        it, <reset>Left click to switch mode, '', <reset>Sneak + Right click on a
+        network component to increase its priority, <reset>Sneak + Left click on a
+        network component to decrease its priority]
+item.lore.wand2: [<reset>Right click any network component to show information about
+        it, <reset>Left click to switch mode, '', <reset>Strict filters respect item
+        meta like durability and enchantments, '', <reset>Sneak + Right click on a
+        sorting chest with an empty offhand to add all contents of the chest as strict
+        filters, <reset>Sneak + Left click with an empty offhand to set all contents
+        of the chest as strict filters (also removes existing filters), '', <reset>Sneak
+        + Right click on a sorting chest with an item in the offhand to apply a strict
+        filter, <reset>Sneak + Left click with an item in the offhand to remove a
+        strict filter]
+item.lore.component.input: [<reset><blue>Sorts items into sorting containers and misc
+        containers]
+item.lore.component.sorting: [<reset><blue>Only accepts items that match the filter
+        of this container]
+item.lore.component.misc: [<reset><blue>All remaining items will go into these]
+item.lore.component.input.upgrade: [<reset><blue>Right click on a chest to make it
+        an input container, <reset><blue>Sorts items into sorting containers and misc
+        containers]
+item.lore.component.sorting.upgrade: [<reset><blue>Right click on a chest to make
+        it a sorting container, <reset><blue>Only accepts items that match the filter
+        of this container]
+item.lore.component.misc.upgrade: [<reset><blue>Right click on a chest to make it
+        a misc container, <reset><blue>All remaining items will go into these]
+item.lore.upgrade.range: [<reset>Click on a network component to apply this upgrade,
+    <reset>Depending on this server's config this applies to all components in the
+        network or just that single component]
+notice: <yellow>Having inventory problems? Try out <white>/networks <yellow>to constructor
+    a fully automated storage network!
+debug.hash: "<reset>Material ID: <1> \nStrict Hash: <2>"

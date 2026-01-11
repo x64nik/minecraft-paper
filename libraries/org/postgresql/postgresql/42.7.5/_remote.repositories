@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Aug 22 17:06:26 IST 2025
+postgresql-42.7.5.jar>maven=
+postgresql-42.7.5.pom>maven=

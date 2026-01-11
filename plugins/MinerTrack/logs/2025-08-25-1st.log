@@ -1,0 +1,12 @@
+2025-08-26 01:37:25 | PeerLess5 failed X-Ray check VL:1(+1) Block:DEEPSLATE_DIAMOND_OREx3(Veinx3) World: world Pos: X157 Y-49 Z-818
+2025-08-26 01:38:29 | PeerLess5 failed X-Ray check VL:2(+1) Block:DEEPSLATE_DIAMOND_OREx1(Veinx4) World: world Pos: X155 Y-53 Z-826
+Excuted Command: minertrack notify &fPeerLess5 &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2025-08-26 01:41:26 | PeerLess5 failed X-Ray check VL:3(+1) Block:DEEPSLATE_DIAMOND_OREx2(Veinx5) World: world Pos: X164 Y-57 Z-833
+2025-08-26 01:43:18 | PeerLess5 failed X-Ray check VL:4(+1) Block:DEEPSLATE_DIAMOND_OREx4(Veinx6) World: world Pos: X160 Y-41 Z-821
+Excuted Command: minertrack notify &fPeerLess5 &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2025-08-26 01:44:22 | PeerLess5 failed X-Ray check VL:5(+1) Block:DEEPSLATE_DIAMOND_OREx6(Veinx7) World: world Pos: X170 Y-35 Z-808
+Excuted Command: minertrack kick PeerLess5 X-Ray
+2025-08-26 01:49:36 | PeerLess5 failed X-Ray check VL:5(+1) Block:DEEPSLATE_DIAMOND_OREx4(Veinx8) World: world Pos: X171 Y-33 Z-791
+Excuted Command: minertrack kick PeerLess5 X-Ray
+2025-08-26 01:57:08 | PeerLess5 failed X-Ray check VL:4(+1) Block:DEEPSLATE_DIAMOND_OREx3(Veinx9) World: world Pos: X134 Y-34 Z-817
+Excuted Command: minertrack notify &fPeerLess5 &7triggered &fX-Ray &7detection [&cVL: 4&7]
