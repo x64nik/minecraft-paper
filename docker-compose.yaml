@@ -1,0 +1,9 @@
+services:
+  minecraft-server:
+    image: eclipse-temurin:21-jre-jammy
+    container_name: minecraft-server
+    ports:
+      - 25565:25565
+      - 25575:25575
+    volumes:
+      - ./:/minecraft
